@@ -16,14 +16,29 @@ h1,h2,h3 {
     font-style: normal;
 }
 
+.blog-topics-container .blog-topics li a{
+ text-decoration: none;       
+ font-size: 1rem  !important;
+ color:#0009;
+}
 
+.blog-topics-container .blog-topics li a:active{
+    color:#1a1a19 !important;
+    font-weight: 500 !important;
+}
 
-/* Responsive */
-@media screen and (max-width:980px) {
+/* tablet breakpoint */
+@media (min-width:768px) {
     
 }
 
-@media screen and (max-width:640px) {
+/** Destktop Style **/
+@media screen and (min-width:1024px) {
+    .blog-topics-container .blog-topics li {
+        display: block !important;
+        list-style: none;
+        line-height: 30px !important;        
+    }
     
 }
 
